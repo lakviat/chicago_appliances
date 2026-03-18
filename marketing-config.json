@@ -192,7 +192,7 @@
     "verification_meta_content": ""
   },
   "google_analytics": {
-    "enabled": false,
-    "measurement_id": ""
+    "enabled": true,
+    "measurement_id": "G-REC96E6DK4"
   }
 }

@@ -263,17 +263,6 @@ textarea {
   margin-top: 54px;
 }
 
-.hero-secondary-action {
-  display: flex;
-  justify-content: center;
-  margin-top: 18px;
-  width: 100%;
-}
-
-.hero-secondary-action .button {
-  min-width: 256px;
-}
-
 .button {
   min-height: 68px;
   padding: 20px 50px;
@@ -974,13 +963,7 @@ textarea {
     max-width: 510px;
   }
 
-  .hero-secondary-action {
-    width: 100%;
-    max-width: 510px;
-  }
-
-  .hero-actions .button,
-  .hero-secondary-action .button {
+  .hero-actions .button {
     width: 100%;
     max-width: 510px;
   }
