@@ -194,6 +194,10 @@ textarea {
   display: none;
 }
 
+.mobile-menu[hidden] {
+  display: none !important;
+}
+
 .hero {
   position: relative;
   min-height: 780px;
