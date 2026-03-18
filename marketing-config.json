@@ -1,0 +1,198 @@
+{
+  "site": {
+    "domain": "https://chicagoappliance-repair.com",
+    "business_name": "Chicago Appliances Repair",
+    "phone": "+1-872-710-3947",
+    "email": "chicagoapprepair@gmail.com",
+    "service_area": [
+      "Chicago, IL",
+      "Glenview, IL",
+      "Highland Park, IL",
+      "Des Plaines, IL"
+    ]
+  },
+  "seo": {
+    "primary_keywords": [
+      "appliance repair chicago",
+      "appliance repair near me",
+      "same day appliance repair chicago",
+      "emergency refrigerator repair chicago",
+      "subzero refrigerator repair",
+      "subzero freezer not cooling",
+      "subzero ice maker not making ice",
+      "subzero fridge not turning on",
+      "subzero refrigerator is leaking",
+      "subzero service near me",
+      "subzero refrigerator repair chicago",
+      "viking oven not heating",
+      "viking refrigerator repair service near me",
+      "viking dishwasher repair",
+      "viking fridge not cooling",
+      "viking range repair chicago",
+      "wolf oven not working",
+      "wolf oven loosing temperature",
+      "wolf double oven repair",
+      "wolf range not heating",
+      "wolf making clicking noise",
+      "wolf appliance repair near me"
+    ],
+    "notes": [
+      "Google Search does not rely on the old meta keywords tag for rankings, so these keywords are stored here mainly for paid search planning, content planning, landing pages, and optional metadata."
+    ]
+  },
+  "google_ads": {
+    "enabled": false,
+    "google_ads_customer_id": "",
+    "google_ads_conversion_id": "",
+    "google_ads_conversion_label": "",
+    "google_tag_id": "",
+    "remarketing_enabled": false,
+    "target_keywords": [
+      {
+        "keyword": "appliance repair chicago",
+        "match_type": "exact"
+      },
+      {
+        "keyword": "appliance repair near me",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "same day appliance repair chicago",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "emergency refrigerator repair chicago",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "subzero refrigerator repair",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "subzero freezer not cooling",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "subzero ice maker not making ice",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "subzero fridge not turning on",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "subzero refrigerator is leaking",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "subzero service near me",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "subzero refrigerator repair chicago",
+        "match_type": "exact"
+      },
+      {
+        "keyword": "viking oven not heating",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "viking refrigerator repair service near me",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "viking dishwasher repair",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "viking fridge not cooling",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "viking range repair chicago",
+        "match_type": "exact"
+      },
+      {
+        "keyword": "wolf oven not working",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "wolf oven loosing temperature",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "wolf double oven repair",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "wolf range not heating",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "wolf making clicking noise",
+        "match_type": "phrase"
+      },
+      {
+        "keyword": "wolf appliance repair near me",
+        "match_type": "phrase"
+      }
+    ],
+    "negative_keywords": [
+      {
+        "keyword": "diy",
+        "reason": "Stop how-to researchers"
+      },
+      {
+        "keyword": "how to",
+        "reason": "Stop tutorial seekers"
+      },
+      {
+        "keyword": "parts",
+        "reason": "Stop low-ticket parts buyers"
+      },
+      {
+        "keyword": "manual",
+        "reason": "Stop booklet and documentation searches"
+      },
+      {
+        "keyword": "youtube",
+        "reason": "Stop video tutorial traffic"
+      },
+      {
+        "keyword": "hiring",
+        "reason": "Stop job seekers"
+      },
+      {
+        "keyword": "jobs",
+        "reason": "Stop job seekers"
+      },
+      {
+        "keyword": "used",
+        "reason": "Stop used appliance shoppers"
+      },
+      {
+        "keyword": "cheap",
+        "reason": "Stop low-budget shoppers"
+      },
+      {
+        "keyword": "free",
+        "reason": "Stop free-advice traffic"
+      },
+      {
+        "keyword": "training",
+        "reason": "Stop student and school traffic"
+      }
+    ],
+    "notes": [
+      "Square brackets from the source list were removed because they are Google Ads UI notation for exact match, not part of the actual keyword text.",
+      "Quoted phrase-match notation was also normalized into plain text plus a separate match_type field."
+    ]
+  },
+  "google_search_console": {
+    "verification_meta_content": ""
+  },
+  "google_analytics": {
+    "enabled": false,
+    "measurement_id": ""
+  }
+}

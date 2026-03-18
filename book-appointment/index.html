@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Appointment | Chicago Appliances Repair</title>
+    <meta
+      name="description"
+      content="Book an appliance repair appointment with Chicago Appliances Repair."
+    />
+    <meta
+      name="keywords"
+      content="book appliance repair chicago, schedule appliance repair chicago, refrigerator repair appointment chicago, washer repair appointment chicago, dryer repair appointment chicago, oven repair appointment chicago"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Book Appointment | Chicago Appliances Repair" />
+    <meta
+      property="og:description"
+      content="Schedule an appliance repair appointment in Chicago, Illinois."
+    />
+    <meta property="og:url" content="https://chicagoappliance-repair.com/book-appointment/" />
+    <meta
+      property="og:image"
+      content="https://chicagoappliance-repair.com/assets/live/chicago-appliances-repair-logo.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Book Appointment | Chicago Appliances Repair" />
+    <meta
+      name="twitter:description"
+      content="Choose your appliance, date, and time and send your appointment request online."
+    />
+    <link rel="canonical" href="https://chicagoappliance-repair.com/book-appointment/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@400;600&family=Saira+Condensed:wght@400;500;600;700&family=Saira+Semi+Condensed:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Appliance Repair Appointment Scheduling",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Chicago Appliances Repair",
+          "telephone": "+1-872-710-3947",
+          "url": "https://chicagoappliance-repair.com/"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Chicago"
+        },
+        "url": "https://chicagoappliance-repair.com/book-appointment/"
+      }
+    </script>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container header-shell">
+        <a class="brand" href="../" aria-label="Chicago Appliances Repair">
+          <img
+            src="../assets/live/chicago-appliances-repair-logo.png"
+            alt="Chicago Appliances Repair"
+          />
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary">
+          <a href="../">Home</a>
+          <a href="../#about">About</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-toggle" type="button" aria-expanded="false">
+              Services
+              <span class="caret"></span>
+            </button>
+            <div class="nav-dropdown-menu">
+              <a href="../#services">Washing Machine Repair</a>
+              <a href="../#services">Dryer Repair</a>
+              <a href="../#services">Refrigerator Repair</a>
+              <a href="../#services">Dishwasher Repair</a>
+              <a href="../#services">Oven / Stove Repair</a>
+              <a href="../#services">Vent Hood Repair</a>
+            </div>
+          </div>
+          <a href="../#contact">Contact</a>
+        </nav>
+
+        <a class="header-call" href="tel:+18727103947">Call (872) 710-3947</a>
+
+        <button
+          class="mobile-menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Toggle menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <a href="../">Home</a>
+        <a href="../#about">About</a>
+        <a href="../#services">Services</a>
+        <a href="../#contact">Contact</a>
+        <a class="mobile-menu-call" href="tel:+18727103947">Call (872) 710-3947</a>
+      </div>
+    </header>
+
+    <main class="appointment-page">
+      <section class="appointment-hero">
+        <div class="appointment-hero-overlay"></div>
+        <div class="container appointment-hero-inner">
+          <p class="appointment-kicker">Book Appointment</p>
+          <h1>Schedule Your Appliance Repair</h1>
+          <p class="appointment-subcopy">
+            Choose the appliance, pick the day and time that work for you, and send your contact
+            details. We’ll receive the full request by email and confirm manually.
+          </p>
+        </div>
+      </section>
+
+      <section class="appointment-flow">
+        <div class="container appointment-shell">
+          <form
+            id="appointment-scheduler-form"
+            class="scheduler-form"
+            action="https://api.web3forms.com/submit"
+            method="POST"
+          >
+            <input type="hidden" name="access_key" value="" />
+            <input type="hidden" name="subject" value="Chicago Appliances Repair Appointment Request" />
+            <input type="hidden" name="appointment_type" value="" />
+            <input type="hidden" name="appointment_date" value="" />
+            <input type="hidden" name="appointment_time" value="" />
+            <input type="hidden" name="source_page" value="book-appointment" />
+            <input type="checkbox" name="botcheck" class="hidden-botcheck" tabindex="-1" autocomplete="off" />
+
+            <section class="step-block">
+              <h2>Select The Appliance You Want To Repair?</h2>
+              <div class="option-grid appliance-grid" data-select-group="appointment_type">
+                <button type="button" class="option-card is-selected" data-value="Refrigerator">Refrigerator</button>
+                <button type="button" class="option-card" data-value="Freezer">Freezer</button>
+                <button type="button" class="option-card" data-value="Washer">Washer</button>
+                <button type="button" class="option-card" data-value="Dryer">Dryer</button>
+                <button type="button" class="option-card" data-value="Stove">Stove</button>
+                <button type="button" class="option-card" data-value="Oven">Oven</button>
+                <button type="button" class="option-card" data-value="Cooktop">Cooktop</button>
+                <button type="button" class="option-card" data-value="Microwave">Microwave</button>
+                <button type="button" class="option-card" data-value="Dishwasher">Dishwasher</button>
+                <button type="button" class="option-card" data-value="Ice Maker">Ice Maker</button>
+                <button type="button" class="option-card" data-value="Wine Cooler">Wine Cooler</button>
+                <button type="button" class="option-card" data-value="Vent Hood">Vent Hood</button>
+                <button type="button" class="option-card" data-value="Garbage Disposal">Garbage Disposal</button>
+                <button type="button" class="option-card" data-value="Other">Other</button>
+              </div>
+            </section>
+
+            <section class="step-block">
+              <h2>When Do You Want This Done?</h2>
+              <div class="date-grid" id="appointment-date-grid"></div>
+              <div class="time-grid" data-select-group="appointment_time">
+                <button type="button" class="option-chip is-selected" data-value="As soon as possible">As soon as possible</button>
+                <button type="button" class="option-chip" data-value="8am - 10am">8am - 10am</button>
+                <button type="button" class="option-chip" data-value="10am - 12pm">10am - 12pm</button>
+                <button type="button" class="option-chip" data-value="12pm - 2pm">12pm - 2pm</button>
+                <button type="button" class="option-chip" data-value="2pm - 4pm">2pm - 4pm</button>
+                <button type="button" class="option-chip" data-value="4pm - 6pm">4pm - 6pm</button>
+                <button type="button" class="option-chip" data-value="6pm - 8pm">6pm - 8pm</button>
+              </div>
+            </section>
+
+            <section class="step-block contact-step">
+              <h2>Add Your Contact Information</h2>
+              <div class="scheduler-fields">
+                <label>
+                  Full Name
+                  <input type="text" name="name" placeholder="Name" required />
+                </label>
+                <label>
+                  Phone Number
+                  <input type="tel" name="phone" placeholder="(000) 000 00 00" required />
+                </label>
+                <label>
+                  Email
+                  <input type="email" name="email" placeholder="Email address" />
+                </label>
+                <label>
+                  Address
+                  <input type="text" name="address" placeholder="Service address" />
+                </label>
+                <label class="field-full">
+                  Additional Details
+                  <textarea
+                    name="message"
+                    rows="5"
+                    placeholder="Tell us more about the issue or any preferred details."
+                  ></textarea>
+                </label>
+              </div>
+            </section>
+
+            <section class="step-block appointment-summary">
+              <div class="summary-card">
+                <h3>Your Request</h3>
+                <ul>
+                  <li><span>Appliance</span><strong id="summary-type">Refrigerator</strong></li>
+                  <li><span>Date</span><strong id="summary-date">Today</strong></li>
+                  <li><span>Time</span><strong id="summary-time">As soon as possible</strong></li>
+                </ul>
+              </div>
+              <button type="submit" class="scheduler-submit">Send Appointment Request</button>
+              <p class="scheduler-note" id="scheduler-note">
+                Web3Forms access key placeholder is still empty. Add your key later to activate
+                submissions.
+              </p>
+            </section>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-map">
+        <iframe
+          loading="lazy"
+          src="https://maps.google.com/maps?q=Chicago%20IL%2C%20USA&t=m&z=15&output=embed&iwloc=near"
+          title="Chicago map"
+          aria-label="Chicago map"
+        ></iframe>
+      </div>
+
+      <div class="footer-contact-band">
+        <div class="container footer-contact-grid">
+          <div class="footer-contact-item">
+            <div class="footer-icon" aria-hidden="true">
+              <svg viewBox="0 0 384 512">
+                <path
+                  d="M172.3 501.7C27 291 0 269.4 0 192 0 86 86 0 192 0s192 86 192 192c0 77.4-27 99-172.3 309.7-9.5 13.8-29.9 13.8-39.4 0zM192 272c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80z"
+                />
+              </svg>
+            </div>
+            <h3>Location:</h3>
+            <p>Chicago, Illinois</p>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-icon" aria-hidden="true">
+              <svg viewBox="0 0 448 512">
+                <path
+                  d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6z"
+                />
+              </svg>
+            </div>
+            <h3>Call:</h3>
+            <p><a href="tel:+18727103947">+1 872-710-3947</a></p>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-icon" aria-hidden="true">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M256 32c-23.2-.3-56.6 29.2-73.4 41.4-3.2 2.3-6 4.4-9 6.6H96c-26.5 0-48 21.5-48 48v44.1c-12.4 9.3-20.8 15.9-29.6 22.8A48 48 0 0 0 0 232.7v10.7l96 69.3V128h320v184.7l96-69.3v-10.7c0-14.7-6.8-28.7-18.4-37.8-8.8-6.9-17.2-13.5-29.6-22.8V128c0-26.5-21.5-48-48-48h-77.5c-3-2.2-5.9-4.3-9-6.6C312.6 61.2 279.2 31.7 256 32zm0 385.1c-16.4 0-32.8-5.1-46.9-15.2L0 250.9V464c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V250.9L302.9 401.9c-14 10.1-30.5 15.2-46.9 15.2z"
+                />
+              </svg>
+            </div>
+            <h3>Email</h3>
+            <p><a href="mailto:chicagoapprepair@gmail.com">chicagoapprepair@gmail.com</a></p>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-icon" aria-hidden="true">
+              <svg viewBox="0 0 512 512">
+                <path
+                  d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm61.8 343.6-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
+                />
+              </svg>
+            </div>
+            <h3>Business Hours:</h3>
+            <p>MON - SUN 6AM - 8PM</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">© 2026 Chicago Appliances Repair. All rights Reserved</div>
+    </footer>
+
+    <div class="chat-widget" data-chat-widget>
+      <div class="chat-panel" hidden>
+        <a href="tel:+18727103947">Call us</a>
+        <a href="mailto:chicagoapprepair@gmail.com">Email us</a>
+        <a href="https://wa.me/18727103947" target="_blank" rel="noreferrer">WhatsApp</a>
+      </div>
+      <button class="chat-toggle" type="button" aria-expanded="false" aria-label="Open chat options">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v7A2.5 2.5 0 0 1 17.5 15H11l-4.5 4v-4H6.5A2.5 2.5 0 0 1 4 12.5z"
+            fill="currentColor"
+          />
+        </svg>
+      </button>
+    </div>
+
+    <script src="../script.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
